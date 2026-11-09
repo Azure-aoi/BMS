@@ -1,0 +1,3036 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Fluent-Qt/libFluentQt.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"Fluent-Qt/uilib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=c++17 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/FluentQt_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Qt_Project/BMS_temp1/Fluent-Qt/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Qt_Project/BMS_temp1/Fluent-Qt/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.11.2/mingw_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.11.2/mingw_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.11.2/mingw_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.11.2/mingw_64/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.11.2/mingw_64/include/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				13,
+				15,
+				17,
+				18,
+				19,
+				20,
+				23,
+				32,
+				34,
+				38,
+				40,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				98,
+				100,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				133,
+				135,
+				137,
+				139,
+				142,
+				144,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156,
+				158,
+				160,
+				162,
+				165,
+				168,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				190,
+				192,
+				194,
+				196,
+				200,
+				204,
+				207,
+				210,
+				215,
+				217,
+				222,
+				224,
+				226,
+				228,
+				230,
+				232,
+				234,
+				236,
+				238,
+				241,
+				243,
+				245,
+				247,
+				249,
+				251,
+				253,
+				255,
+				257,
+				259,
+				261,
+				265,
+				267,
+				269,
+				271,
+				273,
+				275,
+				277,
+				279,
+				281,
+				284,
+				287,
+				289,
+				291,
+				293,
+				295,
+				297,
+				299,
+				301,
+				303,
+				305,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				319,
+				321,
+				323,
+				325,
+				327,
+				329,
+				331,
+				333,
+				335,
+				337,
+				339,
+				341,
+				343,
+				345,
+				347,
+				349,
+				351,
+				353,
+				355,
+				363,
+				369,
+				372,
+				374,
+				376,
+				378,
+				384
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "FluentQt_autogen::@8d9ccef8ff350a194c56"
+		},
+		{
+			"id" : "FluentQt_autogen_timestamp_deps::@8d9ccef8ff350a194c56"
+		}
+	],
+	"id" : "FluentQt::@8d9ccef8ff350a194c56",
+	"name" : "FluentQt",
+	"nameOnDisk" : "libFluentQt.a",
+	"paths" : 
+	{
+		"build" : "Fluent-Qt/uilib",
+		"source" : "Fluent-Qt/uilib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				384
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				382,
+				383
+			]
+		},
+		{
+			"name" : "compatibility",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"name" : "compatibility\\platform",
+			"sourceIndexes" : 
+			[
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "compatibility\\private",
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46
+			]
+		},
+		{
+			"name" : "components\\basicinput",
+			"sourceIndexes" : 
+			[
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82
+			]
+		},
+		{
+			"name" : "components\\basicinput\\private",
+			"sourceIndexes" : 
+			[
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92
+			]
+		},
+		{
+			"name" : "components\\charts",
+			"sourceIndexes" : 
+			[
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116
+			]
+		},
+		{
+			"name" : "components\\collections",
+			"sourceIndexes" : 
+			[
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140
+			]
+		},
+		{
+			"name" : "components\\collections\\private",
+			"sourceIndexes" : 
+			[
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149
+			]
+		},
+		{
+			"name" : "components\\date_time",
+			"sourceIndexes" : 
+			[
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159
+			]
+		},
+		{
+			"name" : "components\\date_time\\private",
+			"sourceIndexes" : 
+			[
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169
+			]
+		},
+		{
+			"name" : "components\\dialogs_flyouts",
+			"sourceIndexes" : 
+			[
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181
+			]
+		},
+		{
+			"name" : "components\\dialogs_flyouts\\private",
+			"sourceIndexes" : 
+			[
+				182,
+				183
+			]
+		},
+		{
+			"name" : "components\\foundation",
+			"sourceIndexes" : 
+			[
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198
+			]
+		},
+		{
+			"name" : "components\\foundation\\overlay",
+			"sourceIndexes" : 
+			[
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211
+			]
+		},
+		{
+			"name" : "components\\foundation\\private",
+			"sourceIndexes" : 
+			[
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223
+			]
+		},
+		{
+			"name" : "components\\layout",
+			"sourceIndexes" : 
+			[
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242
+			]
+		},
+		{
+			"name" : "components\\menus_toolbars",
+			"sourceIndexes" : 
+			[
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252
+			]
+		},
+		{
+			"name" : "components\\menus_toolbars\\private",
+			"sourceIndexes" : 
+			[
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266
+			]
+		},
+		{
+			"name" : "components\\navigation",
+			"sourceIndexes" : 
+			[
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280
+			]
+		},
+		{
+			"name" : "components\\navigation\\private",
+			"sourceIndexes" : 
+			[
+				281,
+				282,
+				283
+			]
+		},
+		{
+			"name" : "components\\scrolling",
+			"sourceIndexes" : 
+			[
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294
+			]
+		},
+		{
+			"name" : "components\\scrolling\\private",
+			"sourceIndexes" : 
+			[
+				295,
+				296,
+				297,
+				298
+			]
+		},
+		{
+			"name" : "components\\status_info",
+			"sourceIndexes" : 
+			[
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316
+			]
+		},
+		{
+			"name" : "components\\status_info\\private",
+			"sourceIndexes" : 
+			[
+				317,
+				318,
+				319,
+				320,
+				321,
+				322
+			]
+		},
+		{
+			"name" : "components\\textfields",
+			"sourceIndexes" : 
+			[
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340
+			]
+		},
+		{
+			"name" : "components\\textfields\\private",
+			"sourceIndexes" : 
+			[
+				341,
+				342,
+				343,
+				344,
+				345,
+				346
+			]
+		},
+		{
+			"name" : "components\\windowing",
+			"sourceIndexes" : 
+			[
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356
+			]
+		},
+		{
+			"name" : "design",
+			"sourceIndexes" : 
+			[
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373
+			]
+		},
+		{
+			"name" : "utils",
+			"sourceIndexes" : 
+			[
+				374,
+				375,
+				376,
+				377
+			]
+		},
+		{
+			"name" : "utils\\private",
+			"sourceIndexes" : 
+			[
+				378,
+				379,
+				380,
+				381
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				385,
+				386
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/FluentQt_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/FluentQt.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/AccessibilityCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/ApplicationCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/EventConstructionCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/FontCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/InputEventCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/ObjectCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/PaintCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/QtCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/QtFeatures.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/TextPaintCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/WidgetCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/WindowBackdropTypes.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/WindowBackdropTypes.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/WindowChromeCompat.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/WindowChromeCompat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/platform/WindowChromeCompat_fallback.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/platform/WindowChromeCompat_linux.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/platform/WindowChromeCompat_mac.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/platform/WindowChromeCompat_win.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/AccessibleInterfaces_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/AccessibleTableCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/private/ClipboardCompat_p.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/ClipboardCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/ComboBoxCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/DateTimeCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/ForwardingItemDelegate_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/InputMethodQueryCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/ItemViewSelectionCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/LineEditMetricsCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/PointerEventCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/private/PopupWindowCompat_p.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/PopupWindowCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/private/RuntimePlatformCapabilities.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/RuntimePlatformCapabilities_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/VariantCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/WidgetPlatformCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/private/WidgetPresentationCompat.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/WidgetPresentationCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/compatibility/private/WindowBackdropEvents_p.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/WindowBackdropEvents_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/WindowBackdropTransition_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/WindowBackdropX11Protocol_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/WindowBackdropXcb_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/WindowChromeBackend_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/compatibility/private/WindowPlatformCompat_p.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/Button.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/Button.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/CheckBox.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/CheckBox.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/ColorPicker.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/ColorPicker.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/ComboBox.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/ComboBox.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/CompoundButton.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/CompoundButton.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/DropDownButton.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/DropDownButton.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/FileDropZone.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/FileDropZone.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/HyperlinkButton.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/HyperlinkButton.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/MultiSelectComboBox.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/MultiSelectComboBox.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/RadioButton.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/RadioButton.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/RatingControl.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/RatingControl.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/RepeatButton.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/RepeatButton.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/Slider.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/Slider.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/SplitButton.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/SplitButton.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/ToggleButton.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/ToggleButton.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/ToggleSplitButton.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/ToggleSplitButton.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/ToggleSwitch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/ToggleSwitch.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/TreeSelect.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/TreeSelect.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/private/BasicValueAccessibility_p.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/private/BasicValueAccessibility_p.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/private/ColorPickerAccessibility_p.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/private/ColorPickerAccessibility_p.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/private/HyperlinkButtonAccessibility_p.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/private/HyperlinkButtonAccessibility_p.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/private/MenuButtonAccessibility_p.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/private/MenuButtonAccessibility_p.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/basicinput/private/MultiSelectComboBoxAccessibility_p.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/basicinput/private/MultiSelectComboBoxAccessibility_p.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/AreaChart.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/AreaChart.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/BarChart.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/BarChart.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/ChartGeometry.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/ChartModel.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/ChartModel.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/ChartReadout.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/ChartReadout_p.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/ChartRenderer_p.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/ChartView.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/ChartView.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/DonutChart.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/DonutChart.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/HorizontalBarChart.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/HorizontalBarChart.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/LineChart.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/LineChart.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/PieChart.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/PieChart.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/ScatterChart.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/ScatterChart.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/charts/Sparkline.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/charts/Sparkline.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/CollectionViewBackdrop_p.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/DataGrid.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/DataGrid.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/DrawerView.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/DrawerView.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/FileListView.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/FileListView.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/FlipView.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/FlipView.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/FlowView.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/FlowView.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/GridView.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/GridView.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/ListView.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/ListView.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/SelectionMode.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/SplitView.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/SplitView.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/StackView.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/StackView.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/Timeline.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/Timeline.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/TreeView.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/TreeView.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/private/CollectionItemState_p.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/private/DataGridAccessibility_p.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/private/DataGridAccessibility_p.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/private/DrawerViewAccessibility_p.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/private/DrawerViewAccessibility_p.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/private/FlipViewAccessibility_p.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/private/FlipViewAccessibility_p.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/collections/private/SplitViewAccessibility_p.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/collections/private/SplitViewAccessibility_p.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/date_time/CalendarDatePicker.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/CalendarDatePicker.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/date_time/CalendarView.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/CalendarView.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/date_time/DatePicker.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/DatePicker.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/date_time/DateTimeRangePicker.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/DateTimeRangePicker.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/date_time/TimePicker.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/TimePicker.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/date_time/private/CalendarViewAccessibility_p.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/private/CalendarViewAccessibility_p.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/date_time/private/DateTimeRangePickerAccessibility_p.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/private/DateTimeRangePickerAccessibility_p.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/private/DateTimeRangePickerText_p.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/date_time/private/PickerAccessibility_p.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/private/PickerAccessibility_p.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/private/PickerFlyoutGeometry_p.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/date_time/private/PickerWheel_p.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/date_time/private/PickerWheel_p.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/CoachMark.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/CoachMark.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/ContentDialog.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/ContentDialog.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/Dialog.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/Dialog.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/Flyout.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/Flyout.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/Popup.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/Popup.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/TeachingTip.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/TeachingTip.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/private/TransientSurfaceAccessibility_p.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/dialogs_flyouts/private/TransientSurfaceAccessibility_p.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/FluentElement.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/FluentElement.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/FontIcon.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/FontIcon.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/FormController.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/FormController.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/MotionPolicy.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/MotionPolicy.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/QMLPlus.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/QMLPlus.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/ThemeRegistry.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/ThemeRegistry.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/UserTheme.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/UserTheme.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/WidgetOwnership.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/FieldPopupGeometry_p.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayCoordinator.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayCoordinator.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayGeometry.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayLightDismiss.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayPresentation.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayPresentation.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayPresentation_p.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayScrim.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayScrim.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayShadow.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayWindow.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/overlay/OverlayWindow.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/private/ControlMetrics_p.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/private/DpiPaintMetrics_p.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/private/FluentElement_p.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/private/LogicalItemAccessibility_p.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/private/LogicalItemAccessibility_p.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/private/MotionPolicy_p.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/private/MotionPolicy_p.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/private/SurfacePainter_p.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/private/TextInputFrame_p.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/private/ThemeSpec_p.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/foundation/private/ValueAccessibility_p.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/foundation/private/ValueAccessibility_p.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/layout/Accordion.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/Accordion.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/layout/Card.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/Card.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/layout/DataGridToolBar.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/DataGridToolBar.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/layout/Divider.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/Divider.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/layout/Expander.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/Expander.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/layout/Field.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/Field.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/layout/ListDetailView.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/ListDetailView.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/layout/ParticleBackdrop.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/ParticleBackdrop.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/ParticleBackdrop_p.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/layout/PropertyPanel.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/layout/PropertyPanel.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/CommandBar.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/CommandBar.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/CommandBarFlyout.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/CommandBarFlyout.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/CommandPalette.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/CommandPalette.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/Menu.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/Menu.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/MenuBar.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/MenuBar.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandAccessibility_p.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandAccessibility_p.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandActionModel_p.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandActionModel_p.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandMenuController_p.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandMenuController_p.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandOverflowProjection_p.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandOverflowProjection_p.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandPresenter_p.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandPresenter_p.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/CommandScrollView_p.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/MenuSurface_p.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/TextEditingMenu_p.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/menus_toolbars/private/TextEditingMenu_p.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/navigation/Breadcrumb.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/navigation/Breadcrumb.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/navigation/NavigationView.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/navigation/NavigationView.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/navigation/Pivot.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/navigation/Pivot.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/navigation/SelectorBar.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/navigation/SelectorBar.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/navigation/StackContentHost.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/navigation/StackContentHost.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/navigation/Stepper.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/navigation/Stepper.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/navigation/TabView.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/navigation/TabView.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/navigation/private/NavigationSelectionAccessibility_p.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/navigation/private/NavigationSelectionAccessibility_p.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/navigation/private/TabViewVisualGeometry_p.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/scrolling/AnnotatedScrollBar.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/scrolling/AnnotatedScrollBar.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/scrolling/OverlayScrollChrome.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/scrolling/OverscrollController.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/scrolling/OverscrollController.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/scrolling/PipsPager.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/scrolling/PipsPager.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/scrolling/ScrollBar.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/scrolling/ScrollBar.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/scrolling/ScrollView.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/scrolling/ScrollView.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/scrolling/private/AnnotatedScrollBarAccessibility_p.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/scrolling/private/AnnotatedScrollBarAccessibility_p.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/scrolling/private/PipsPagerAccessibility_p.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/scrolling/private/PipsPagerAccessibility_p.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/Avatar.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/Avatar.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/InfoBadge.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/InfoBadge.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/InfoBar.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/InfoBar.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/ProgressBar.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/ProgressBar.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/ProgressRing.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/ProgressRing.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/Shimmer.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/Shimmer.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/SplashScreen.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/SplashScreen.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/Toast.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/Toast.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/ToolTip.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/ToolTip.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/private/ProgressAccessibility_p.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/private/ProgressAccessibility_p.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/private/StatusPresentationAccessibility_p.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/private/StatusPresentationAccessibility_p.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/status_info/private/ToolTipAccessibility_p.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/status_info/private/ToolTipAccessibility_p.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/AutoSuggestBox.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/AutoSuggestBox.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/CodeBlock.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/CodeBlock.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/EditingCommandRouter.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/EditingCommandRouter.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/Label.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/Label.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/LineEdit.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/LineEdit.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/NumberBox.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/NumberBox.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/PasswordBox.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/PasswordBox.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/TagInput.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/TagInput.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/TextEdit.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/TextEdit.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/private/AutoSuggestBoxAccessibility_p.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/private/AutoSuggestBoxAccessibility_p.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/private/CodeHighlighter_p.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/private/CodeHighlighter_p.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/textfields/private/NumberBoxAccessibility_p.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/textfields/private/NumberBoxAccessibility_p.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/windowing/TitleBar.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/windowing/TitleBar.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/windowing/Window.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/windowing/Window.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/windowing/WindowBackdrop.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/windowing/WindowBackdrop.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/windowing/WindowBackdropMaterial.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/windowing/WindowBackdropMaterial.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/components/windowing/WindowChromeFrame.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/components/windowing/WindowChromeFrame.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/Animation.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/Breakpoints.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/ChartTokens_p.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/CodeTokens_p.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/CornerRadius.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/Elevation.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/design/IconCatalog.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/IconCatalog.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/Material.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/MenuTokens_p.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/OverlayTokens_p.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/Spacing.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/design/ThemeColors.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/ThemeColors.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/ToastTokens_p.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/design/Typography.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/design/Typography.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/utils/DebugOverlay.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/utils/DebugOverlay.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/utils/Inspector.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/utils/Inspector.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fluent-Qt/src/utils/private/FluentQtLogging.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/utils/private/FluentQtLogging_p.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/utils/private/FluentQtResources_p.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Fluent-Qt/src/utils/private/Inspector_p.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/generated/resources.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/FluentQt_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/FluentQt_autogen/SODBQJRRMN/qrc_resources.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/FluentQt_autogen/timestamp.rule",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/FluentQt_autogen/SODBQJRRMN/qrc_resources.cpp.rule",
+			"sourceGroupIndex" : 32
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

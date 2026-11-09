@@ -1,0 +1,167 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b881cc9e3220d20fd99b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "Fluent-Qt",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-Fluent-Qt-Release-33ee8b7951eb10367ce5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Fluent-Qt",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Fluent-Qt/uilib",
+					"jsonFile" : "directory-Fluent-Qt.uilib-Release-dfdbcdcdba8e2c42b4d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Fluent-Qt/uilib",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BMS",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "FluentQt",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BMS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BMS-Release-cb450ecfd5fee5093868.json",
+					"name" : "BMS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BMS_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BMS_autogen-Release-a2fd845333f1a5f9d67d.json",
+					"name" : "BMS_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BMS_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BMS_autogen_timestamp_deps-Release-9aa0aa66215a632c6b0c.json",
+					"name" : "BMS_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "FluentQt::@8d9ccef8ff350a194c56",
+					"jsonFile" : "target-FluentQt-Release-c8ac584625d2096e878b.json",
+					"name" : "FluentQt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "FluentQt_autogen::@8d9ccef8ff350a194c56",
+					"jsonFile" : "target-FluentQt_autogen-Release-0099ff9208866754effd.json",
+					"name" : "FluentQt_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "FluentQt_autogen_timestamp_deps::@8d9ccef8ff350a194c56",
+					"jsonFile" : "target-FluentQt_autogen_timestamp_deps-Release-1b7ed1759fd70064b392.json",
+					"name" : "FluentQt_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fluent_qt_source_package::@096c7f76bb824536dd20",
+					"jsonFile" : "target-fluent_qt_source_package-Release-c13a007b1dcee70e48aa.json",
+					"name" : "fluent_qt_source_package",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release",
+		"source" : "D:/Qt_Project/BMS_temp1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
