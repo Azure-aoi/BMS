@@ -1,0 +1,13 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file alias="res/fonts/FluentQtUIText-Regular.ttf">D:/Qt_Project/BMS_temp1/Fluent-Qt/res/fonts/FluentQtUIText-Regular.ttf</file>
+        <file alias="res/fonts/FluentQtUIText-Semibold.ttf">D:/Qt_Project/BMS_temp1/Fluent-Qt/res/fonts/FluentQtUIText-Semibold.ttf</file>
+        <file alias="res/fonts/FluentQtUIHeading-Semibold.ttf">D:/Qt_Project/BMS_temp1/Fluent-Qt/res/fonts/FluentQtUIHeading-Semibold.ttf</file>
+        <file alias="res/fonts/FluentQtUIDisplay-Semibold.ttf">D:/Qt_Project/BMS_temp1/Fluent-Qt/res/fonts/FluentQtUIDisplay-Semibold.ttf</file>
+
+        <file alias="res/icons/FluentQtIcons.ttf">D:/Qt_Project/BMS_temp1/Fluent-Qt/res/icons/FluentQtIcons.ttf</file>
+        <file alias="res/icons/FluentQtIcons.json">D:/Qt_Project/BMS_temp1/Fluent-Qt/res/icons/FluentQtIcons.json</file>
+        <file alias="res/icons/FluentQtIconAliases.json">D:/Qt_Project/BMS_temp1/Fluent-Qt/res/icons/FluentQtIconAliases.json</file>
+    </qresource>
+</RCC>

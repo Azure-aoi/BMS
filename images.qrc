@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/image"/>
+    <qresource prefix="/icon">
+        <file>img/icon/ic_account.png</file>
+        <file>img/icon/ic_password.png</file>
+        <file>img/icon/ic_svg_password.svg</file>
+        <file>img/icon/ic_svg_account.svg</file>
+        <file>img/icon/ic_password_show.svg</file>
+        <file>img/icon/ic_password_notshow.svg</file>
+    </qresource>
+</RCC>

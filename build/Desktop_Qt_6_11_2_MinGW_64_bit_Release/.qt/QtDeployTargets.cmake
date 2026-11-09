@@ -1,0 +1,5 @@
+set(__QT_DEPLOY_TARGET_FluentQt_FILE D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/libFluentQt.a)
+set(__QT_DEPLOY_TARGET_FluentQt_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_BMS_FILE D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/BMS.exe)
+set(__QT_DEPLOY_TARGET_BMS_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_BMS_RUNTIME_DLLS D:/Qt/6.11.2/mingw_64/bin/Qt6Sql.dll;D:/Qt/6.11.2/mingw_64/bin/Qt6Svg.dll;D:/Qt/6.11.2/mingw_64/bin/Qt6Widgets.dll;D:/Qt/6.11.2/mingw_64/bin/Qt6Gui.dll;D:/Qt/6.11.2/mingw_64/bin/Qt6Core.dll)

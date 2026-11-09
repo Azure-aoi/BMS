@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/FluentQt_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/uilib",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Qt_Project/BMS_temp1/Fluent-Qt/uilib",
+	"CMAKE_SOURCE_DIR" : "D:/Qt_Project/BMS_temp1",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/FluentQt_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/Qt_Project/BMS_temp1/Fluent-Qt/res/fonts/FluentQtUIText-Semibold.ttf",
+		"D:/Qt_Project/BMS_temp1/Fluent-Qt/res/fonts/FluentQtUIDisplay-Semibold.ttf",
+		"D:/Qt_Project/BMS_temp1/Fluent-Qt/res/fonts/FluentQtUIText-Regular.ttf",
+		"D:/Qt_Project/BMS_temp1/Fluent-Qt/res/fonts/FluentQtUIHeading-Semibold.ttf",
+		"D:/Qt_Project/BMS_temp1/Fluent-Qt/res/icons/FluentQtIconAliases.json",
+		"D:/Qt_Project/BMS_temp1/Fluent-Qt/res/icons/FluentQtIcons.ttf",
+		"D:/Qt_Project/BMS_temp1/Fluent-Qt/res/icons/FluentQtIcons.json"
+	],
+	"LOCK_FILE" : "D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/uilib/CMakeFiles/FluentQt_autogen.dir/AutoRcc_resources_SODBQJRRMN_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "SODBQJRRMN",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/6.11.2/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/uilib/CMakeFiles/FluentQt_autogen.dir/AutoRcc_resources_SODBQJRRMN_Used.txt",
+	"SOURCE" : "D:/Qt_Project/BMS_temp1/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/Fluent-Qt/generated/resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

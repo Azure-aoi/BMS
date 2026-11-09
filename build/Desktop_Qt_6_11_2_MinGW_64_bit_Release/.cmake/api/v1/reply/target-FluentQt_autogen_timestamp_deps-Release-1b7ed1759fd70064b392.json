@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Fluent-Qt/uilib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "FluentQt_autogen_timestamp_deps::@8d9ccef8ff350a194c56",
+	"isGeneratorProvided" : true,
+	"name" : "FluentQt_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "Fluent-Qt/uilib",
+		"source" : "Fluent-Qt/uilib"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
